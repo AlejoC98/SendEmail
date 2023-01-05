@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	padding: 0;
+	background-color: #D6D6D6;
+}
+
+.banner {
+	background-color: #011627;
+	padding: 10px;
+}
+
+.logo img{
+	width: 60px;
+	height: 50px;
+}
+
+.tittle {
+	color: #fff;
+	font-size: 30px;
+	margin-top: 5px;
+	position: absolute;
+}
+
+.banner-search {
+	background-color: #35605A;
+}
+
+.search {
+	height: 50px;
+	width: 500px;
+	margin-left: 50px;
+	background: transparent;
+	border: 0;
+	padding-left: 10px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.search:focus {
+	outline:0px;
+}
+
+.icon-search {
+	background-color: #FF3F00;
+	padding: 15px;
+	font-size: 20px;
+	position: absolute;
+	margin: 69px 0 0 0;
+	color: #ffffff;
+}
+
+.form-contact {
+	margin-top: 40px;
+	margin-bottom: 170px;
+}
+
+.tittle-contact {
+	text-align: center;
+	font-size: 50px;
+}
+
+.contact {
+	width: 500px;
+	margin-left: 320px;
+	margin-top: 50px;
+}
+
+.contact input,textarea {
+	margin-top: 20px;
+}
+
+.menssage {
+	color: red;
+	margin-left: 20px;
+}
+
+.btn-sent {
+	margin-top: 20px;
+	margin-left: 320px;
+	width: 500px;
+	background-color: #004FFF;
+	color: #fff;
+}
+
+.btn-sent:hover {
+	background-color: #4C83FF;
+	color: #fff;
+}
+
+.mensaje-mail {
+	color: #fff;
+	margin: 20px 0 0 320px;
+	text-align: center;
+	width: 500px;
+	padding: 10px;
+	display: none;
+}
+
+.success {
+	background-color: #1DD70F;
+}
+
+.error {
+	background-color: #D12727;
+}
